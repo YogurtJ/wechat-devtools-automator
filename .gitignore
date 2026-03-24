@@ -1,0 +1,8 @@
+dist/
+node_modules/
+.DS_Store
+evals/sweeps/
+*.skill
+task_plan.md
+findings.md
+progress.md

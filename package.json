@@ -1,0 +1,39 @@
+{
+  "name": "wechat-devtools-automator",
+  "private": true,
+  "version": "0.2.0",
+  "description": "CLI-driven WeChat DevTools evidence capture for Codex: screenshots, interactions, scrolls, console, and report.json",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YogurtJ/wechat-devtools-automator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/YogurtJ/wechat-devtools-automator/issues"
+  },
+  "homepage": "https://github.com/YogurtJ/wechat-devtools-automator#readme",
+  "engines": {
+    "node": ">=22"
+  },
+  "keywords": [
+    "codex-skill",
+    "codex",
+    "skill",
+    "wechat-devtools",
+    "wechat-mini-program",
+    "wechat-miniapp",
+    "wechat-miniprogram",
+    "wechat-devtools-automation",
+    "devtools-cli",
+    "wechat-gui",
+    "mini-program-debugging",
+    "agentic-engineering",
+    "agentic-development",
+    "visual-debugging",
+    "cli-screenshots",
+    "screenshot-automation",
+    "screenshot",
+    "console-capture",
+    "report-json"
+  ]
+}

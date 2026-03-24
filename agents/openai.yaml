@@ -1,0 +1,4 @@
+interface:
+  display_name: "WeChat DevTools Automator"
+  short_description: "Inspect real Mini Program pages in WeChat DevTools"
+  default_prompt: "Use $wechat-devtools-automator to open a Mini Program page in WeChat DevTools, capture screenshots, and collect console evidence."
