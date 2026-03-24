@@ -2,6 +2,13 @@
 
 All notable changes to `wechat-devtools-automator` are documented here.
 
+## 0.2.0-beta.4 - 2026-03-25
+
+- Switch the repository license to MIT with `YogurtJ` as copyright holder
+- Replace `LICENSE-NOTICE.md` with a real `LICENSE`
+- Add README badges and tighten the first-screen value proposition
+- Update release/install/metadata docs to match the MIT-licensed public beta posture
+
 ## 0.2.0-beta.3 - 2026-03-25
 
 - Replace the inline README demo screenshots with a cleaner text-first README

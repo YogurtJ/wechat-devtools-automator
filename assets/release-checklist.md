@@ -5,8 +5,8 @@ This checklist doubles as a smoke-test signoff and release-ready narrative for G
 ## 1) Beta documentation sync
 
 - [ ] `README.md`, `references/quickstart.md`, `references/install-and-share.md`, and `references/eval.md` reflect the same commands, limitations, and trigger QA posture you just verified.
-- [ ] `LICENSE-NOTICE.md` still matches `package.json` (`UNLICENSED`) and the wording used in release notes / repo About text.
-- [ ] Limitations call out that the `.skill` and repo are `UNLICENSED` beta-evaluation artifacts and that trigger/eval artifacts live under `evals/` plus `output/wechat-devtools-automator/`.
+- [ ] `LICENSE` still matches `package.json` (`MIT`) and the wording used in release notes / repo About text.
+- [ ] Limitations focus on product maturity and environment constraints, while trigger/eval artifacts still live under `evals/` plus `output/wechat-devtools-automator/`.
 - [ ] Release notes summarize “what changed”, “who should care”, and link to the artifact folder plus the sweep summary (`evals/sweeps/<timestamp>/summary.md`).
 - [ ] Compatibility matrix records the exact platform, Node, and WeChat DevTools combos you tested during this release.
 - [ ] Repository keywords (GitHub topics, `package.json` keywords) mention terms like `wechat-devtools`, `mini-program`, `screenshot`, `trigger-eval` so the beta skill is findable via search.
@@ -46,4 +46,4 @@ Fill every column while you run the commands; if you capture multiple runs, add 
 - [ ] `.skill` artifact name/version matches the beta release snapshot and does not embed nested `/dist` archives.
 - [ ] Wrapper path (`scripts/wechat_devtools_automator.sh`) is referenced so team members know how to rerun the recorded commands.
 - [ ] Release communication links to this checklist plus one artifact folder so reviewers can reproduce the evidence without guesswork.
-- [ ] If a new beta `bundle` is published, keep the `.skill` asset marked as private until licensing/visibility is explicitly updated (e.g., switch from `UNLICENSED` to an open license).
+- [ ] If a new beta `bundle` is published, confirm the `.skill` asset and release notes still reflect the current MIT-licensed beta posture.

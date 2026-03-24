@@ -96,8 +96,8 @@ In one short loop, a new user can move from install to first usable evidence pac
 - `visual-debugging`
 
 ### Beta posture wording
-- `Public GitHub beta` is accurate while `package.json` remains `UNLICENSED`.
-- Avoid `open-source`, `MIT`, `Apache`, or `community license` until a real `LICENSE` file exists.
+- `Public GitHub beta` is accurate.
+- `MIT-licensed beta` is now accurate too.
 
 ## Example prompts
 

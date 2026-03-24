@@ -1,9 +1,9 @@
 {
   "name": "wechat-devtools-automator",
   "private": true,
-  "version": "0.2.0-beta.3",
+  "version": "0.2.0-beta.4",
   "description": "CLI-driven WeChat DevTools evidence capture for agentic Mini Program workflows: screenshots, interactions, scrolls, console, and report.json",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/YogurtJ/wechat-devtools-automator.git"

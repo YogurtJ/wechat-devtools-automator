@@ -1,5 +1,10 @@
 # WeChat DevTools Automator
 
+[![Release](https://img.shields.io/github/v/release/YogurtJ/wechat-devtools-automator?include_prereleases&label=release)](https://github.com/YogurtJ/wechat-devtools-automator/releases)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![WeChat DevTools](https://img.shields.io/badge/WeChat-DevTools-07C160)](https://developers.weixin.qq.com/miniprogram/dev/devtools/devtools.html)
+[![README 中文](https://img.shields.io/badge/README-%E4%B8%AD%E6%96%87-blue)](README.zh-CN.md)
+
 简体中文说明：[`README.zh-CN.md`](README.zh-CN.md)
 
 Beta release candidate for agentic WeChat Mini Program visual debugging inside WeChat DevTools / 微信开发者工具.
@@ -11,10 +16,10 @@ Status: public GitHub beta for real Mini Program development workflows with docu
 ## Beta posture
 
 - Distribution posture today: public GitHub beta for evaluation and smoke-tested adoption
-- License posture today: `UNLICENSED` until an explicit open-source or source-available license is added
+- License posture today: MIT
 - Release trust anchors: documented smoke runs, packaged `.skill` artifact, trigger QA summaries, and sharable evidence folders
 
-Before promoting the repo more broadly, point readers to `LICENSE-NOTICE.md`, `references/install-and-share.md`, `assets/release-checklist.md`, and `references/github-metadata.md`.
+Before promoting the repo more broadly, point readers to `LICENSE`, `references/install-and-share.md`, `assets/release-checklist.md`, and `references/github-metadata.md`.
 
 ## What one run gives you
 
@@ -72,6 +77,13 @@ export WDA="$CODEX_HOME/skills/wechat-devtools-automator/scripts/wechat_devtools
 ```
 
 Prefer a packaged `.skill` instead? See `references/install-and-share.md`.
+
+## Why this repo is easy to adopt
+
+- MIT license lowers adoption friction for teams and tool builders
+- Works as a normal shell-driven repo even outside Codex
+- Keeps the Mini Program feedback loop grounded in real WeChat DevTools output
+- Produces shareable evidence instead of “trust me, it rendered fine”
 
 ## Quickstart
 
@@ -153,3 +165,4 @@ Record every newly verified platform combo in `assets/release-checklist.md`.
 - Install and share: `references/install-and-share.md`
 - Trigger QA: `references/eval.md`
 - Release metadata: `references/github-metadata.md`
+- License: `LICENSE`

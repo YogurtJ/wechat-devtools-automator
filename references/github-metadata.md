@@ -6,11 +6,11 @@ Use this when turning the skill folder into a GitHub-facing beta repository or r
 
 - Product name: `wechat-devtools-automator`
 - Category: agent-tool-friendly CLI automation helper for WeChat Mini Programs
-- Beta posture: public GitHub beta while licensing remains explicitly `UNLICENSED`
+- Beta posture: public GitHub beta, MIT-licensed
 
 ## Repository description candidates
 
-- Beta WeChat DevTools automation for agentic Mini Program screenshots, scroll capture, and console evidence
+- MIT-licensed beta WeChat DevTools automation for agentic Mini Program screenshots, scroll capture, and console evidence
 - Give agents eyes inside WeChat DevTools: open Mini Program routes, interact, scroll, screenshot, and export `report.json`
 - Evidence-driven WeChat Mini Program QA with route opening, interaction replay, screenshot capture, and console logs
 
@@ -33,7 +33,7 @@ Use this when turning the skill folder into a GitHub-facing beta repository or r
 - say what the user gets after one run: screenshots + `report.json` + rerunnable command flow
 - mention that the wrapper/scripts can be called from multiple agent tools, while the packaged `.skill` is Codex-specific
 - link install, smoke evidence, and trigger QA docs within the first screenful
-- avoid claiming open-source status until `LICENSE` exists
+- link the MIT `LICENSE` directly once the repo is published
 
 ## Release page checklist
 
@@ -41,10 +41,9 @@ Use this when turning the skill folder into a GitHub-facing beta repository or r
 - include one runnable command block: `doctor`, `routes`, `shot`
 - link one real artifact folder example and the trigger QA summary
 - mention the tested platform/Node/DevTools combo
-- repeat the current license posture from `LICENSE-NOTICE.md`
+- mention that the repository is MIT-licensed
 
 ## What not to claim yet
 
-- do not call the skill MIT / Apache / open-source
 - do not imply a public package registry release
-- do not imply broad redistribution rights that the current metadata does not grant
+- do not imply official native integration inside every agent IDE

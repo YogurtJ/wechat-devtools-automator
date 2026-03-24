@@ -1,5 +1,10 @@
 # WeChat DevTools Automator
 
+[![Release](https://img.shields.io/github/v/release/YogurtJ/wechat-devtools-automator?include_prereleases&label=release)](https://github.com/YogurtJ/wechat-devtools-automator/releases)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![WeChat DevTools](https://img.shields.io/badge/WeChat-DevTools-07C160)](https://developers.weixin.qq.com/miniprogram/dev/devtools/devtools.html)
+[![README EN](https://img.shields.io/badge/README-English-blue)](README.md)
+
 English README: [`README.md`](README.md)
 
 这是一个面向微信小程序真实页面验证的 WeChat DevTools 自动化仓库。
@@ -11,10 +16,10 @@ English README: [`README.md`](README.md)
 ## 当前姿态
 
 - 分发姿态：公开 GitHub beta
-- 许可姿态：仍然是 `UNLICENSED`
+- 许可姿态：MIT
 - 信任锚点：真实 smoke 记录、可重跑命令、`.skill` 包、`report.json`、发布清单
 
-在更大范围传播前，建议同时阅读 `LICENSE-NOTICE.md`、`references/install-and-share.md`、`assets/release-checklist.md`、`references/github-metadata.md`。
+在更大范围传播前，建议同时阅读 `LICENSE`、`references/install-and-share.md`、`assets/release-checklist.md`、`references/github-metadata.md`。
 
 ## 一次运行能得到什么
 
@@ -79,6 +84,13 @@ export WDA="$CODEX_HOME/skills/wechat-devtools-automator/scripts/wechat_devtools
 ```
 
 如果你更想直接分发 `.skill` 包，可以看 `references/install-and-share.md`。
+
+## 为什么更容易被采用
+
+- MIT 许可更利于团队试用、二次封装和生态传播
+- 不依赖单一 agent 工具，能作为普通 shell 工作流使用
+- 把微信小程序联调建立在真实微信开发者工具画面之上
+- 交付的是截图 + `report.json` 证据，而不是口头描述
 
 ## 快速开始
 
@@ -151,3 +163,4 @@ export WDA="/path/to/wechat-devtools-automator/scripts/wechat_devtools_automator
 - 安装与分享：`references/install-and-share.md`
 - Trigger / Eval：`references/eval.md`
 - GitHub 元数据建议：`references/github-metadata.md`
+- 许可证：`LICENSE`

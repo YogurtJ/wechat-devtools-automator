@@ -2,7 +2,7 @@
 
 This keeps installers and reviewers in sync: document the commands you ran, the artifact folder each run produced, and the trigger-QA notes that justify the beta posture.
 
-Read `LICENSE-NOTICE.md` before promoting the repo more widely so the current `UNLICENSED` / beta-evaluation posture is explicit.
+Read `LICENSE` before promoting the repo more widely so the permission model is explicit.
 
 ## 1) Use from any agent tool
 
@@ -49,7 +49,7 @@ export WDA="$CODEX_HOME/skills/wechat-devtools-automator/scripts/wechat_devtools
 "$WDA" doctor --project "$(pwd)"
 ```
 
-Treat the downloaded `.skill` as a beta evaluation artifact while `package.json` stays `UNLICENSED`. Link to this guide, the quickstart, and `assets/release-checklist.md` so testers can see both the commands and the release evidence bundle.
+Treat the downloaded `.skill` as a beta release artifact. Link to this guide, the quickstart, and `assets/release-checklist.md` so testers can see both the commands and the release evidence bundle.
 
 ## 4) Beta-ready share checklist
 
@@ -73,7 +73,7 @@ Treat the downloaded `.skill` as a beta evaluation artifact while `package.json`
 
 - Publish the release notes with explicit prerequisites (local WeChat DevTools, mini program project).
 - Embed a runnable command block—not just prose—that shows how to `doctor`, `routes`, and capture the first screenshot.
-- Describe the limitations (`UNLICENSED` beta evaluation release) and mention that the `.skill` is distributed as a beta artifact until licensing changes.
+- Describe the limitations as product maturity constraints rather than licensing restrictions, because the repository is now MIT-licensed.
 - Link the release checklist and trigger QA summary so downstream agents know where to find the screenshots, console logs, and pass/fail counts.
 - If you use GitHub as the landing surface, mirror the About text/topics from `references/github-metadata.md`.
 
