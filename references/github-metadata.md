@@ -5,12 +5,12 @@ Use this when turning the skill folder into a GitHub-facing beta repository or r
 ## Positioning
 
 - Product name: `wechat-devtools-automator`
-- Category: Codex skill / CLI automation helper for WeChat Mini Programs
+- Category: agent-tool-friendly CLI automation helper for WeChat Mini Programs
 - Beta posture: public GitHub beta while licensing remains explicitly `UNLICENSED`
 
 ## Repository description candidates
 
-- Beta Codex skill for WeChat Mini Program screenshots, scroll capture, and console evidence in WeChat DevTools
+- Beta WeChat DevTools automation for agentic Mini Program screenshots, scroll capture, and console evidence
 - Give agents eyes inside WeChat DevTools: open Mini Program routes, interact, scroll, screenshot, and export `report.json`
 - Evidence-driven WeChat Mini Program QA with route opening, interaction replay, screenshot capture, and console logs
 
@@ -19,17 +19,19 @@ Use this when turning the skill folder into a GitHub-facing beta repository or r
 - `wechat-devtools`
 - `wechat-miniprogram`
 - `mini-program`
-- `codex-skill`
+- `ai-agents`
 - `agentic-engineering`
 - `visual-debugging`
 - `screenshot-automation`
 - `console-capture`
+- `developer-tools`
 
 ## README first-screen checklist
 
 - name the product in both English and Chinese context where helpful
 - say “public GitHub beta” or “beta release candidate” near the top
 - say what the user gets after one run: screenshots + `report.json` + rerunnable command flow
+- mention that the wrapper/scripts can be called from multiple agent tools, while the packaged `.skill` is Codex-specific
 - link install, smoke evidence, and trigger QA docs within the first screenful
 - avoid claiming open-source status until `LICENSE` exists
 

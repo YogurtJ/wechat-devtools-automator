@@ -2,6 +2,13 @@
 
 All notable changes to `wechat-devtools-automator` are documented here.
 
+## 0.2.0-beta.3 - 2026-03-25
+
+- Replace the inline README demo screenshots with a cleaner text-first README
+- Add `README.zh-CN.md` and cross-link the English and Chinese readmes
+- Reposition the repo as agent-tool-friendly instead of over-framing it as Codex-only
+- Add a generic wrapper-based install path for Claude Code, Cursor, OpenCode, OpenClaw, and similar agent tools
+
 ## 0.2.0-beta.2 - 2026-03-25
 
 - Clarify the public GitHub beta posture while keeping `UNLICENSED` licensing explicit

@@ -60,7 +60,7 @@ In one short loop, a new user can move from install to first usable evidence pac
 
 ## Ideal users
 
-- 用 Codex / agent 开发微信小程序并需要“可验证输出”的个人或团队
+- 用各种 agent 工具开发微信小程序并需要“可验证输出”的个人或团队
 - 需要远程协作、异步评审、跨角色交接的项目
 - 重构期想减少“我这边看起来没问题”沟通成本的团队
 
@@ -79,16 +79,16 @@ In one short loop, a new user can move from install to first usable evidence pac
 ## GitHub metadata
 
 ### Repository description candidates
-- `wechat-devtools-automator`: beta Codex skill for WeChat Mini Program evidence capture in WeChat DevTools
+- `wechat-devtools-automator`: beta WeChat DevTools automation for agentic Mini Program evidence capture
 - `wechat-devtools-automator`: CLI-driven Mini Program evidence capture (screenshots, scrolls, console, report.json)
 - Give agents eyes inside WeChat DevTools: compile, interact, and capture a route in one artifact.
 - WeChat Mini Program beta: route + interaction + scroll screenshots bundled with console proof.
 
 ### Suggested topics
-- `codex-skill`
 - `wechat-miniprogram`
 - `mini-program`
 - `wechat-devtools`
+- `ai-agents`
 - `cli-tool`
 - `evidence-automation`
 - `agentic-development`

@@ -1,8 +1,8 @@
 {
   "name": "wechat-devtools-automator",
   "private": true,
-  "version": "0.2.0-beta.2",
-  "description": "CLI-driven WeChat DevTools evidence capture for Codex: screenshots, interactions, scrolls, console, and report.json",
+  "version": "0.2.0-beta.3",
+  "description": "CLI-driven WeChat DevTools evidence capture for agentic Mini Program workflows: screenshots, interactions, scrolls, console, and report.json",
   "license": "UNLICENSED",
   "repository": {
     "type": "git",
@@ -16,9 +16,8 @@
     "node": ">=22"
   },
   "keywords": [
-    "codex-skill",
-    "codex",
-    "skill",
+    "ai-agents",
+    "agent-tools",
     "wechat-devtools",
     "wechat-mini-program",
     "wechat-miniapp",
@@ -29,6 +28,7 @@
     "mini-program-debugging",
     "agentic-engineering",
     "agentic-development",
+    "developer-tools",
     "visual-debugging",
     "cli-screenshots",
     "screenshot-automation",
