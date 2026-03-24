@@ -6,7 +6,7 @@ This checklist doubles as a smoke-test signoff and release-ready narrative for G
 
 - [ ] `README.md`, `references/quickstart.md`, `references/install-and-share.md`, and `references/eval.md` reflect the same commands, limitations, and trigger QA posture you just verified.
 - [ ] `LICENSE-NOTICE.md` still matches `package.json` (`UNLICENSED`) and the wording used in release notes / repo About text.
-- [ ] Limitations call out that the `.skill` is `UNLICENSED`/private-beta and that trigger/eval artifacts live under `evals/` plus `output/wechat-devtools-automator/`.
+- [ ] Limitations call out that the `.skill` and repo are `UNLICENSED` beta-evaluation artifacts and that trigger/eval artifacts live under `evals/` plus `output/wechat-devtools-automator/`.
 - [ ] Release notes summarize “what changed”, “who should care”, and link to the artifact folder plus the sweep summary (`evals/sweeps/<timestamp>/summary.md`).
 - [ ] Compatibility matrix records the exact platform, Node, and WeChat DevTools combos you tested during this release.
 - [ ] Repository keywords (GitHub topics, `package.json` keywords) mention terms like `wechat-devtools`, `mini-program`, `screenshot`, `trigger-eval` so the beta skill is findable via search.

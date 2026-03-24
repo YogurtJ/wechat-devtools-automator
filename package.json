@@ -1,7 +1,7 @@
 {
   "name": "wechat-devtools-automator",
   "private": true,
-  "version": "0.2.0",
+  "version": "0.2.0-beta.2",
   "description": "CLI-driven WeChat DevTools evidence capture for Codex: screenshots, interactions, scrolls, console, and report.json",
   "license": "UNLICENSED",
   "repository": {

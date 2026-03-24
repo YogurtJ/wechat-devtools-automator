@@ -8,11 +8,11 @@ Status: Beta release candidate for real Mini Program development workflows with 
 
 ## Beta posture
 
-- Distribution posture today: private beta / direct team sharing
+- Distribution posture today: public GitHub beta for evaluation and smoke-tested adoption
 - License posture today: `UNLICENSED` until an explicit open-source or source-available license is added
 - Release trust anchors: documented smoke runs, packaged `.skill` artifact, trigger QA summaries, and sharable evidence folders
 
-Before wider sharing, point readers to `LICENSE-NOTICE.md`, `references/install-and-share.md`, `assets/release-checklist.md`, and `references/github-metadata.md` so the beta scope and landing-page copy stay explicit.
+Before promoting the repo more broadly, point readers to `LICENSE-NOTICE.md`, `references/install-and-share.md`, `assets/release-checklist.md`, and `references/github-metadata.md` so the beta scope and landing-page copy stay explicit.
 
 ## What one run gives you
 

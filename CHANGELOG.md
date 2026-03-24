@@ -2,6 +2,12 @@
 
 All notable changes to `wechat-devtools-automator` are documented here.
 
+## 0.2.0-beta.2 - 2026-03-25
+
+- Clarify the public GitHub beta posture while keeping `UNLICENSED` licensing explicit
+- Align README, install/share docs, release checklist, store copy, and GitHub metadata with the actual release surface
+- Prepare the repo for a first GitHub prerelease with About/topics/release metadata
+
 ## 0.2.0-beta.1 - 2026-03-25
 
 - First public beta source release for GitHub

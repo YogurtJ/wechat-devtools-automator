@@ -79,7 +79,7 @@ In one short loop, a new user can move from install to first usable evidence pac
 ## GitHub metadata
 
 ### Repository description candidates
-- `wechat-devtools-automator`: private-beta Codex skill for WeChat Mini Program evidence capture in WeChat DevTools
+- `wechat-devtools-automator`: beta Codex skill for WeChat Mini Program evidence capture in WeChat DevTools
 - `wechat-devtools-automator`: CLI-driven Mini Program evidence capture (screenshots, scrolls, console, report.json)
 - Give agents eyes inside WeChat DevTools: compile, interact, and capture a route in one artifact.
 - WeChat Mini Program beta: route + interaction + scroll screenshots bundled with console proof.
@@ -96,7 +96,7 @@ In one short loop, a new user can move from install to first usable evidence pac
 - `visual-debugging`
 
 ### Beta posture wording
-- `Private beta` is accurate while `package.json` remains `UNLICENSED`.
+- `Public GitHub beta` is accurate while `package.json` remains `UNLICENSED`.
 - Avoid `open-source`, `MIT`, `Apache`, or `community license` until a real `LICENSE` file exists.
 
 ## Example prompts
